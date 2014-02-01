@@ -33,7 +33,6 @@
     $body.append('<div class="highlight" id="highlight_right"></div>');
     $body.append('<div class="highlight" id="highlight_bottom"></div>');
     $body.append('<div class="highlight" id="highlight_left"></div>');
-    console.log("sup");
 
     $.fn.highlight.$panes = {
       top: $('#highlight_top'),
